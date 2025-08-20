@@ -1,0 +1,21 @@
+Qué son los datos?
+
+Los datos son valores numéricos asignados de manera objetiva a propiedades de objetos o eventos, como la altura de un árbol o la duración de un evento. Generalmente, vienen con una unidad de medida estándar. La revolución tecnológica ha permitido a los sistemas electrónicos recolectar y medir estos datos de forma automática, beneficiando a la industria y a las empresas.
+
+La pirámide de la automatización y el uso de datos
+La pirámide de la automatización muestra cómo los datos se usan en diferentes niveles de una organización:
+
+Nivel 0: Recopilación de datos brutos de sensores y equipos.
+
+Nivel 1: Agrupación y control de datos para tomar decisiones a nivel de procesos (ej. elegir entre dos productos diferentes).
+
+Nivel 2: Sistemas de supervisión que agrupan los datos para que sean fáciles de entender para los humanos, usando gráficos y análisis.
+
+Nivel 3: Operaciones de fabricación, donde se toman decisiones administrativas basadas en datos de rendimiento.
+
+Nivel 4: Gestión del negocio, donde se toman decisiones estratégicas de rentabilidad.
+
+Nivel 5 (Inteligencia de negocios): Un nivel más reciente donde se analizan grandes volúmenes de datos (big data) para tomar decisiones de alto nivel, como las estrategias de mercado.
+
+
+
