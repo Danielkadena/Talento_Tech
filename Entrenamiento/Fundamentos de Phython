@@ -1,0 +1,66 @@
+Fundamentos de Phython
+
+[ ]
+print("Hola Mundo")
+
+
+[ ]
+5**5
+
+[ ]
+2**10
+
+[ ]
+2**100
+Este numero se lee:
+
+Un sextillón, doscientos sesenta y siete mil seiscientos cincuenta quintillones, doscientos veintiocho mil doscientos veintinueve cuatrillones, cuatrocientos un mil cuatrocientos noventa y seis trillones, setecientos tres mil doscientos cinco billones, trescientos setenta y seis millones.
+
+Dato:
+
+Este número es tan grande que suele usarse en el campo de la computación para ilustrar la cantidad de combinaciones posibles en un sistema de 100 bits.
+
+
+[ ]
+2**10000
+
+[ ]
+2**100000
+
+[ ]
+Nombre=input(" Nombre")
+
+[ ]
+print(Nombre)
+
+[ ]
+Numero=input("Numero")
+
+[ ]
+print(Numero)
+
+[ ]
+nunero=int(input("Numero"))
+
+
+[ ]
+print(nunero)
+
+[4]
+numero=float(input("Numero"))
+
+[5]
+print(numero)
+
+[7]
+numero_redondeado=round(numero,4)
+
+[10]
+6 s
+numero_redondeado=round(float(input("Numero")),4)
+Numero89.23654841
+
+[11]
+0 s
+print(numero_redondeado)
+89.2365
