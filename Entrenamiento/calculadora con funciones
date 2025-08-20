@@ -1,0 +1,75 @@
+import math
+
+print("Ejemplo Calculadora con funciones )con Python" )
+
+print()
+#MENU:
+print("MENU:")
+
+print("1: +")
+print("2: -")
+print("3: *")
+print("4: Dividir (/)")
+print("5: poteciacion")
+print("6:logaritmacion")
+print("7: seno")
+print("8: coseno")
+print("9: tangente")
+print()
+
+#Ingreso de datos:
+
+opcion=input("Ingrese la opción deseada del menú: ")
+
+numero_uno=float(input('Ingrese el primer número de la operación:'))
+numero_dos=float(input('Ingrese el segundo número de la operación:'))
+
+#Posibilidades para ejecutar la calculadora:
+
+
+if opcion=='1':
+  print("Vamos a sumar(+) los dos valores ingresados:")
+  print('La suma es:',numero_uno+numero_dos)
+if opcion=='2':
+  print("Vamos a restar(-) los dos valores ingresados:\n")
+  resta=numero_uno-numero_dos
+  print("Resultado=",resta)
+if opcion=='3':
+  print("Vamos a multiplicar(*) los dos valores ingresados:\n")
+
+  mult=numero_uno*numero_dos
+  print(mult)
+  #print('{}*{}'.format(numero_uno,numero_dos),"=",'{}'.format(mult))
+if opcion=='4'or opcion=='/' or opcion=='Dividir':
+  print("Vamos a dividir(/) los dos valores ingresados:\n")
+  #VALIDANDO EL DENOMINADOR (debe ser diferente de cero)
+  if numero_dos!=0:
+    print(numero_uno/numero_dos)
+  else:
+    print("¡No es posible dividir entre cero!")
+if opcion=="5":
+  print("vamos a potenciar,los dos valores ingresados:\n")
+  print(numero_uno**numero_dos)
+if opcion == '6':
+    print("Vamos a calcular el logaritmo:")
+    try:
+        logaritmo_base_e = math.log(numero_uno)
+        print(f'El logaritmo natural (base e) de {numero_uno} es: {logaritmo_base_e}')
+        base = float(input('Ingrese la base para el logaritmo (deje en blanco para logaritmo natural): '))
+        if base:
+             logaritmo_base_n = math.log(numero_uno, base)
+             print(f'El logaritmo base {numero_dos} de {numero_uno} es: {logaritmo_base_n}')
+    except ValueError as e:
+        print(f"Error: {e}. Asegúrese de que el número sea positivo.")
+if opcion == '7':
+    print("Vamos a calcular el seno:")
+    seno = math.sin(math.radians(numero_uno))
+    print(f'El seno de {numero_uno} es: {seno}')
+if opcion == "8":
+    print("Vamos a calcular el coseno:")
+    coseno = math.cos(math.radians(numero_uno))
+    print(f'El coseno de {numero_uno} es: {coseno}')
+if opcion == "9":
+   print("Vamos a calcular la tangente:")
+   tangente = math.tan(math.radians(numero_uno))
+   print(f'La tangente de {numero_uno} es: {tangente}')
