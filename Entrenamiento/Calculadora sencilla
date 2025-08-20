@@ -1,0 +1,43 @@
+print("Ejemplo Calculadora Sencilla (+,-,*,/)con Python" )
+
+print()
+#MENU:
+print("MENU:")
+
+print("1: +")
+print("2: -")
+print("3: *")
+print("4: Dividir (/)")
+print()
+
+#Ingreso de datos:
+
+opcion=input("Ingrese la opción deseada del menú: ") 
+
+numero_uno=float(input('Ingrese el primer número de la operación:'))
+numero_dos=float(input('Ingrese el segundo número de la operación:'))
+
+#Posibilidades para ejecutar la calculadora:
+
+
+if opcion=='1':
+  print("Vamos a sumar(+) los dos valores ingresados:")
+  print('La suma es:',numero_uno+numero_dos)
+if opcion=='2':
+  print("Vamos a restar(-) los dos valores ingresados:\n")
+  resta=numero_uno-numero_dos  
+  print("Resultado=",resta) 
+if opcion=='3':
+  print("Vamos a multiplicar(*) los dos valores ingresados:\n")
+ 
+  mult=numero_uno*numero_dos
+  print(mult)
+  #print('{}*{}'.format(numero_uno,numero_dos),"=",'{}'.format(mult))
+if opcion=='4'or opcion=='/' or opcion=='Dividir':
+  print("Vamos a dividir(/) los dos valores ingresados:\n")
+  #VALIDANDO EL DENOMINADOR (debe ser diferente de cero)
+  if numero_dos!=0:
+    print(numero_uno/numero_dos)
+  else:
+    print("¡No es posible dividir entre cero!")
+
